@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'notesproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "note-db",
-        'USER': 'postgres',
-        'PASSWORD': 'funbi',
-        'HOST': 'localhost',
+        'NAME': "notes_db_rf1b",
+        'USER': 'notes_db_rf1b_user',
+        'PASSWORD': 'IvnxPZbFIyjIgWRWBIUOknd8YCAFJTIV',
+        'HOST': 'dpg-d3p6ou3ipnbc739p1rc0-a.oregon-postgres.render.com',
         'PORT': 5432,
     }
 }
